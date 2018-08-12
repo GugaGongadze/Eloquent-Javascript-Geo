@@ -435,52 +435,23 @@ each other or on external files. The
 links to Zip files containing all the scripts and data files
 necessary to run the code for a given chapter.
 
-## Overview of this book
+## წიგნის მიმოხილვა
 
-This book contains roughly three parts. The first 12 chapters discuss
-the JavaScript language. The next seven chapters are about web
-((browsers)) and the way JavaScript is used to program them. Finally,
-two chapters are devoted to ((Node.js)), another environment to
-program JavaScript in.
+ეს წიგნი დაახლოებით სამი ნაწილისგან შედგება. პირველი 12 თავი ჯავასკრიპტს განიხილავს. მომდევნო შვიდი თავი შეეხება ((ვებ-ბრაუზერებს)) და როგორ გამოიყენება ჯავასკრიპტი მათ დასაპროგრამებლად. საბოლოოდ, ორი თავი ეძღვნება ((Node.js-ს)), ჯავასკრიპტის პროგრამების გასაშვებ სხვა გარემოს.
 
-Throughout the book, there are five _project chapters_, which describe
-larger example programs to give you a taste of actual programming. In
-order of appearance, we will work through building a [delivery
-robot](robot), a [programming language](language), a [platform
-game](game), a [pixel paint program](paint), and a [dynamic
-website](skillsharing).
+წიგნში ხუთი _პროექტის თავია_, სადაც აღწერილია შედარებით დიდი პროგრამები, პროგრამირების ნამდვილი გემო რომ შეიგრძნოთ. მიყოლებით, ჯერ [მიწოდების რობოტს](robot) შევქმნით, შემდეგ [პროგრამირების ენას](language), [პლატფორმერ თამაშს](game), [პიქსელებით სახატავ პროგრამას](paint) და [დინამიურ ვებსაიტს](skillsharing).
 
-The language part of the book starts with four chapters that introduce
-the basic structure of the JavaScript language. They introduce
-[control structures](program_structure) (such as the `while` word you
-saw in this introduction), [functions](functions) (writing your own
-building blocks), and [data structures](data). After these, you will
-be able to write basic programs. Next, Chapters [?](higher_order) and
-[?](object) introduce techniques to use functions and objects to write
-more _abstract_ code and keep complexity under control.
+წიგნის ენობრივი ნაწილი იწყება ოთხი თავით, რომელიბიც ჯავასკრიპტის ძირითად სტრუქტურას გაგაცნობს. ამ ნაწილში შემოდის ცნებები, როგორიცაა [მართვის სტრუქტურები](program_structure)(მაგალითად, სიტყვა `while`, ამ შესავალში უკვე რომ შეგხვდა), [ფუნცქციები](functions) და [მონაცემთა სტრუქტურები](data). ამის შემდეგ უკვე შეგეძლება მარტივი პროგრამების დაწერა. თავები [?](higher_order) და [?](object) გაგაცნობს ფუნქციებისა და ობიექტების გამოყენების ტექნიკებს, რომელთა დახმარებით უფრო _აბსტრაქტულ_ კოდს დაწერ და კომპლექსურობას გააკონტროლებ.
 
-After a [first project chapter](robot), the language part of the book
-continues with chapters on [error handling and bug fixing](error),
-[regular expressions](regexp) (an important tool for working with
-text), [modularity](modules) (another defense against complexity), and
-[asynchronous programming](async) (dealing with events that take
-time). The [second project chapter](language) concludes the first part
-of the book.
+[პირველი პროექტის თავის](robot) შემდეგ წიგნის ენობრივი ნაწილი გრძელდება თავებით [შეცდომების დამუშავებასა და ბაგების გამოსწორებაზე](error), [რეგულარულ გამოსახულებებზე](regexp)(ტექსტთან სამუშაოდ აუცილებელი რამ), [მოდულარობაზე](modules)(კომლექსურობასთან საბრძოლველი კიდევ ერთი თავდაცვა) და [ასინქრონულ პროგრამირებაზე](sync)(ისეთი მოვლენების დამორჩილება, რომლებსაც "დრო სჭირდებათ შესასრულებლად"). [მეორე პროექტის თავი](language) წიგნის პირველ ნაწილს ამთავრებს.
 
-The second part, Chapters [?](browser) to [?](paint), describes the
-tools that browser JavaScript has access to. You'll learn to display
-things on the screen (Chapters [?](dom) and [?](canvas)), respond to
-user input ([Chapter ?](event)), and communicate over the network
-([Chapter ?](http)). There are again two project chapters in this
-part.
+მეორე ნაწილიში(თავები [?](browser) და [?](paint)) აღწერილია, რა ხელსაწყოებთან აქვს წვდომა ბრაუზერის ჯავასკრიპტს. ისწავლი, როგორ გამოსახო ეკრანზე ელემენტები(თავები [?](dom) და [?](canvas)), ირეაგირო მომხმარებლის მიერ შემოყვანილ ინფორმაციაზე(თავი [?](event), როგორ იურთიერთო ქსლეთან(თავი [?](http)). ამ ნაწილშიც კვლავ ორი პროექტია.
 
-After that, [Chapter ?](node) describes Node.js, and [Chapter
-?](skillsharing) builds a small website using that tool.
+ამის ყველაფრის შემდეგ, [თავი ?](node) აღწერს Node.js-ს, და [თავი ?](skillsharing) პატარა ვებსაიტს ქმნის მისი დახმარებით.
 
 {{if commercial
 
-Finally, [Chapter ?](fast) describes some of the considerations that
-come up when optimizing JavaScript programs for speed.
+ბოლოს კი, [თავი ?](fast) მოგვითხრობს, რა უნდა გავითვალისწინოთ, როდესაც ჯავასკრიპტის პროგრამების ოპტიმიზაცია გვინდა სისწრაფის მხრივ.
 
 if}}
 
@@ -488,7 +459,7 @@ if}}
 
 {{index "factorial function"}}
 
-ამ წიგნში, `monospace` - ით დაწერილი ტექსტი პროგრამის ელემენტებს აღნიშნავს. ხანდახან დამოუკიდებელ ფრაგმენტებს, ხანდახან კი ახლომდებარე პროგრამას ახლავს თან. თავად პროგრამები (რამდენიმე უკვე შეგხვდა) შემდეგნაირადაა დაწერილი:
+ამ წიგნში, `monospace` - ით დაწერილი ტექსტი პროგრამის ელემენტებს აღნიშნავს. ხანდახან დამოუკიდებელ ფრაგმენტებს, ხანდახან კი ახლომდებარე პროგრამას ახლავს თან. თავად პროგრამები კი (რამდენიმე უკვე შეგხვდა) შემდეგნაირადაა დაწერილი:
 
 ```
 function factorial(n) {
@@ -502,7 +473,7 @@ function factorial(n) {
 
 {{index "console.log"}}
 
-ხანდახან, პროგრამის გამონატანი შედეგი ქვემოთ უწერია, ორი დახრილი ხაზითა და ისრით წამძღვარებული.
+ხანდახან, პროგრამის გამონატანი შედეგი ქვემოთ წერია, ორი დახრილი ხაზითა და ისრით წამძღვარებული.
 
 ```
 console.log(factorial(8));
