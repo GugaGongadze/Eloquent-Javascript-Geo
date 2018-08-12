@@ -1,8 +1,8 @@
 {{meta {load_files: ["code/intro.js"]}}}
 
-# Introduction
+# შესავალი
 
-{{quote {author: "Ellen Ullman", title: "Close to the Machine: Technophilia and its Discontents", chapter: true}
+{{quote {author: "ელენ ულმანი", title: "Close to the Machine: Technophilia and its Discontents", chapter: true}
 
 We think we are creating the system for our own purposes. We believe
 we are making it in our own image... But the computer is not really
@@ -484,14 +484,11 @@ come up when optimizing JavaScript programs for speed.
 
 if}}
 
-## Typographic conventions
+## ტიპოგრაფიის შეთანხმება
 
 {{index "factorial function"}}
 
-In this book, text written in a `monospaced` font will represent
-elements of programs—sometimes they are self-sufficient fragments, and
-sometimes they just refer to part of a nearby program. Programs (of
-which you have already seen a few) are written as follows:
+ამ წიგნში, `monospace` - ით დაწერილი ტექსტი პროგრამის ელემენტებს აღნიშნავს. ხანდახან დამოუკიდებელ ფრაგმენტებს, ხანდახან კი ახლომდებარე პროგრამას ახლავს თან. თავად პროგრამები (რამდენიმე უკვე შეგხვდა) შემდეგნაირადაა დაწერილი:
 
 ```
 function factorial(n) {
@@ -505,13 +502,11 @@ function factorial(n) {
 
 {{index "console.log"}}
 
-Sometimes, to show the output that a program produces, the
-expected output is written after it, with two slashes and an arrow in
-front.
+ხანდახან, პროგრამის გამონატანი შედეგი ქვემოთ უწერია, ორი დახრილი ხაზითა და ისრით წამძღვარებული.
 
 ```
 console.log(factorial(8));
 // → 40320
 ```
 
-Good luck!
+წარმატებები!
